@@ -2,11 +2,9 @@ body{
     font-family: arial;
     background-color: black;
     background-image: url(boi.8a721906.jpg);
-    background-size: 400px 400px;
+    background-size: 410px 410px;
     background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    
+    background-position: top 200px right 50%;
 }
 
 @font-face{
@@ -73,7 +71,7 @@ li a:hover{
 .heromini{
     color: white;
     font-family: inter;
-    font-size: 30px;
+    font-size: 35px;
     text-align: center;
     text-transform: uppercase;
 
@@ -84,11 +82,174 @@ li a:hover{
 .circle{
     border:1px solid white;
     color: white;
-    height: 200px;
-    width: 200px;
+    height: 170px;
+    width: 170px;
     border-radius: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 100px;
+    margin: 0%;
+    font-size: 20px;
+    margin-right: -900px;
+}
+
+.rectangle{
+    border: 1px solid white;
+    color: white;
+    height: 170px;
+    width: 170px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin: 0%;
+    margin-left: -900px;
+}
+
+.rectext{
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    font-family: inter;
+    word-wrap: break-word;
+    width: 140px;
+    text-transform: uppercase;
+}
+
+.rowone{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.equal {
+    color: white;
+    font-size: 40px;
+    margin: 0%;
+    font-size: 50px;
+    font-family: inter;
+}
+
+/* About Section-------------------------- */
+
+.paragraph1{
+    color: white;
+    font-size: 20px;
+    font-family: inter;
+    text-align: left;
+    word-wrap: break-word;
+    width: 600px;
+    margin: 0%;
+}
+
+.paragragh2{
+    color: white;
+    font-size: 20px;
+    font-family: inter;
+    text-align: left;
+    word-wrap: break-word;
+    width: 600px;
+    margin: 0%;
+    margin-bottom: 25px;
+}
+
+.rowtwo{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.redeem{
+    color: white;
+    font-size: 40px;
+    font-family: inter;
+    margin: 0%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.diagram{
+    margin-top: 100px;
+    
+}
+
+.diagramdiv{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 300px;
+}
+
+/* Footer----------------------------------- */
+
+.cryptoh1{
+    color: white;
+    font-size: 35px;
+    font-family: inter;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.Available{
+    font-size: 90px;
+    color: white;
+    text-align: center;
+    font-family: inter;
+    margin-top: 200px;
+}
+
+.NOW{
+    font-size: 250px;
+}
+
+.buybut{
+    height: 130px;
+    width: 280px;
+    border: 2px solid white;
+    border-radius: 50%;
+    rotate: -15deg;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    transition: all 0.2s;
+}
+
+.buybut:hover{
+    background-color: white;
+    color: black;
+    rotate: 0deg;
+    box-shadow: 1px 1px 5px 1px white; 
+}
+
+.buydiv{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+}
+
+.followbut{
+    font-family: inter;
+    color: white;
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 200px;
+    transition: all 0.2s;
+}
+
+.followbut:hover{
+    color: royalblue;
+    font-size: 37px;
 }
